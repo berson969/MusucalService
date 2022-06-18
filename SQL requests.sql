@@ -8,8 +8,8 @@ LIMIT 1;
 SELECT name, duration FROM Tracks
 WHERE  duration >= '3:30';
 
-SELECT name FROM COllections
-WHERE released_year >= '2018' AND released_year <= '2020';
+SELECT name, released_year  FROM COllections
+WHERE released_year >= 2018 AND released_year <= 2020;
 
 
 SELECT name FROM Actors

@@ -61,11 +61,11 @@ VALUES
 	('My Heart', '2017'),
 	('Good songs', '2019'),
 	('Old songs', '2017'),
-	('Me Collection', '2022'),
+	('My Collection', '2022'),
 	('The Best', '2020'),
 	('Love', '2020');
 
-SELECT * FROM Collections;
+--SELECT * FROM Collections;
 
 INSERT INTO ActorGenre (actor_id, genre_id)
 VALUES
@@ -88,10 +88,10 @@ VALUES
 	('7', '2'),
 	('7', '6'),
 	('7', '5'),
-	('8', '4'),
-	('8', '4');
+	('8', '4')
+;
 
-SELECT * FROM ActorGenre;
+--SELECT * FROM ActorGenre;
 
 INSERT INTO AlbumActor (album_id, actor_id)
 VALUES
@@ -107,7 +107,7 @@ VALUES
 	('8', '3'),
 	('8', '4');
 	
-SELECT * FROM AlbumActor;
+--SELECT * FROM AlbumActor;
 
 INSERT INTO AlbumActor (album_id, actor_id)
 VALUES
